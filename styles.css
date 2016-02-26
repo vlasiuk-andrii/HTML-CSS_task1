@@ -11,6 +11,17 @@ div.block {
     
 }
 
+div#super_header{
+	width: 50%;
+    margin: 0 auto; 
+    width: 560px;
+    padding-bottom: 10px;
+}
+
+label#super_header{
+	font-size: 16;
+}
+
 #header {
 	height: 20px;
 	text-align: right;
@@ -24,10 +35,13 @@ div.block {
 	text-align: center;
 	padding: 5px;
 	border-top: 2px solid #B8B8B8 ;
+	position: fixed;
+    bottom: 0;
 }
 
 #main{
-	height: 350px;	
+	height: 490px;	
+	background-image: url(Grey.jpg);
 }
 
 div#left,div#middle,div#right {
@@ -35,7 +49,7 @@ div#left,div#middle,div#right {
 }
 
 #left {
-	background:#F5F5F5;
+	background:transparent;
 	width:200px;
 	float:left;
 }
@@ -54,16 +68,16 @@ div#left,div#middle,div#right {
   	margin-left: 10px;
   	margin-top: 10px;
   	margin-right: 10px;
-  	height: 200px;
+  	height: 117px;
 }
 
 .login div#align_login_right{
-	width: 30%;
+	width: 25%;
 	float: left;
 	height: 100%;
 	text-align: right;
 	padding-top: 10px;
-	padding-right: 15px;
+	padding-right: 10px;
 }
 label#pass {
 	margin-top: 5px;
@@ -80,6 +94,11 @@ input#password {
 }
 
 #right {
-	background:#F5F5F5;
+	background:transparent;
+	padding: 5px;
+	
 
+}
+label#statistic {
+	
 }
