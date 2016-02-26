@@ -1,0 +1,39 @@
+div.block {
+    /* border-radius: 25px; */
+	border: 2px solid black;
+    /* padding: 20px; */
+    width: 100%;
+    
+}
+
+#header {
+	height: 15px;
+}
+
+#footer {
+	height: 15px;
+}
+
+#main {
+	height: 150px;	
+}
+
+div.block div {
+	height:100%;
+}
+
+#left {
+background:red;
+width:200px;
+float:left;
+}
+
+#middle {
+background:blue;
+width:80%;
+float:left;
+}
+
+#right {
+background:gray;
+}
