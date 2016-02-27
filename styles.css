@@ -8,6 +8,10 @@ body {
 	overflow: hidden;
 }
 
+a{
+	color: #3300FF;
+}
+
 div.block {
     /* border-radius: 25px; */
 	/* border: 2px solid black; */
@@ -141,6 +145,10 @@ label#statistic {
 table {
 	margin: 5px;
 	width: 99%;
+}
+
+td.td_left{
+	text-align: left;
 }
 
 #tr_top{
